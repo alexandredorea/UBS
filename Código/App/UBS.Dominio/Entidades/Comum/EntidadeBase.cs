@@ -8,6 +8,9 @@ namespace UBS.Dominio.Entidades.Comum
     /// <typeparam name="TipoChave">Tipo da chave primária utilizada para a entidade</typeparam>
     public abstract class EntidadeBase<TipoChave> : IEntidadeBase
     {
+        /// <summary>
+        /// Get e Set do campo identidade
+        /// </summary>
         public TipoChave Id { get; set; }
 
         /// <summary>
